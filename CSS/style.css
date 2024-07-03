@@ -12,8 +12,9 @@ nav {
   text-align: center;
 }
 a {
-  background-color: bisque;
   margin: 0 100px;
+  color: #fff;
+  text-decoration: none;
 }
 
 h1 {
