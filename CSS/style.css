@@ -11,14 +11,29 @@ nav {
   background-color: cadetblue;
   text-align: center;
 }
-a {
-  margin: 0 50px;
+header a {
+  margin: 0 150px;
   color: #fff;
   text-decoration: none;
 }
 
-h1 {
+/* h1 {
   text-align: center;
+  margin-top: 20px;
+} */
+h1 {
+  display: inline-block;
+}
+.m-bottom {
+  margin-right: 40px;
+}
+.m-top {
+  margin-left: 60px;
+}
+p {
+  background-color: cornflowerblue;
+  text-align: center;
+  color: rgb(0, 0, 0);
 }
 
 footer {
@@ -30,10 +45,4 @@ footer {
   bottom: 0;
   width: 100%;
   height: 25%;
-}
-
-p {
-  background-color: cornflowerblue;
-  text-align: center;
-  color: rgb(0, 0, 0);
 }
