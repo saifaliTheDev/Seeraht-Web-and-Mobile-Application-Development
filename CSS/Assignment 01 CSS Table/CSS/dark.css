@@ -1,0 +1,63 @@
+header {
+  height: 80px;
+  background-color: #121212;
+}
+
+header {
+  height: 80px;
+  background-color: #121212;
+}
+
+main {
+  background-color: #121212e7;
+  color: white;
+  padding: 15px;
+}
+
+.container {
+  width: 70%;
+  margin: 0 auto;
+}
+table,
+tr,
+th,
+td {
+  border: 1px solid #ffffff;
+}
+
+th,
+td {
+  padding: 15px;
+}
+
+table {
+  width: 100%;
+  border-collapse: collapse;
+}
+
+.table {
+  margin: 20px 0px;
+}
+
+.heading {
+  text-align: center;
+  margin-top: 8px;
+}
+
+footer {
+  text-align: center;
+  height: 40px;
+}
+#button {
+  background-color: rgb(255, 255, 255);
+  border: none;
+  color: rgb(0, 0, 0);
+  border-radius: 4px;
+  padding: 4px;
+  float: right;
+  margin: 20px 0;
+  height: 40px;
+  width: 120px;
+  font-size: 20px;
+  color: rgb(0, 0, 0);
+}

@@ -1,0 +1,56 @@
+header {
+  height: 80px;
+}
+main {
+  background-color: whitesmoke;
+  padding: 15px;
+}
+
+.container {
+  width: 70%;
+  margin: 0 auto;
+}
+table,
+tr,
+th,
+td {
+  border: 1px solid #aeaeae;
+}
+
+th,
+td {
+  padding: 15px;
+}
+
+table {
+  width: 100%;
+  border-collapse: collapse;
+}
+
+.table {
+  margin: 20px 0px;
+}
+
+.heading {
+  text-align: center;
+  margin-top: 8px;
+}
+
+#button {
+  background-color: rgb(14, 14, 14);
+  border: none;
+  color: rgb(255, 255, 255);
+  border-radius: 4px;
+  padding: 4px;
+  float: right;
+  margin: 20px 0;
+  height: 40px;
+  width: 120px;
+  font-size: 20px;
+}
+
+footer {
+  text-align: center;
+  height: 40px;
+  
+}
