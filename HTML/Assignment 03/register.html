@@ -1,0 +1,109 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Assignment 03 - Web and Mobile Application Development </title>
+
+</head>
+
+<body>
+    <header>
+        <nav>
+            <center>
+                <table border="1">
+                    <tr>
+                        <th>Saif Network</th>
+                        <th style="width: 100px;"><a href="index.html">Home</a></th>
+                        <th style="width: 100px;"><a href="about.html">About</a></th>
+                        <th style="width: 100px;"><a href="gallery.html">Gallery</a></th>
+                        <th style="width: 100px;"><a href="media.html">Media</a></th>
+                        <th style="width: 100px;"><a href="contact.html">Contact</a></th>
+                        <th style="width: 100px;"><a href="login.html">Login</a></th>
+                        <th style="width: 100px;"><a href="register.html">Register</a></th>
+                    </tr>
+                </table>
+            </center>
+        </nav>
+    </header>
+    <hr>
+    <main style="text-align: center;">
+        <h1>This is Login page</h1>
+        <hr>
+        <h2>Please register to continue</h2>
+        <p>All the fields are required.</p>
+        <hr>
+
+        <!-- Login Form -->
+
+        <center>
+            <fieldset style="text-align: left; width: 200px;">
+                <legend>Register</legend>
+                <form>
+
+                    <label for="full-name">Full Name:</label>
+                    <input type="text" name="fullName" id="full-name" placeholder="Full Name">
+                    <br>
+                    <br>
+
+
+                    <label for="email">Email:</label>
+                    <input type="email" name="email" id="email" placeholder="Email">
+                    <br>
+                    <br>
+
+                    <label for="password">Password:</label>
+                    <input type="password" name="password" id="password" placeholder="Password">
+                    <br>
+                    <br>
+                    <label for="">Gender:</label>
+                    <br>
+                    <label for="gender-male">Male:</label>
+                    <input type="radio" name="gender" id="gender-male">
+                    <label for="gender-female">Female</label>
+                    <input type="radio" name="gender" id="gender">
+                    <br>
+                    <br>
+                    <label for="">Hobbies:</label>
+                    <br>
+                    <label for="music">Music:</label>
+                    <input type="checkbox" name="hobby-name" id="music" value="">
+                    <label for="art">Art</label>
+                    <input type="checkbox" name="hobby-name" id="art">
+                    <label for="painting">Painting</label>
+                    <input type="checkbox" name="hobby-name" id="painting">
+                    <br>
+                    <br>
+                    <label for="country">Country:</label>
+                    <select name="country" id="country">
+                        <option value="Pakistan">Pakistan</option>
+                        <option value="India">India</option>
+                        <option value="Afghanistan">Afghanistan</option>
+                        <option value="Bangladesh">Bangladesh</option>
+                    </select>
+                    <br>
+                    <br>
+                    <label for="dob">DOB:</label>
+                    <br>
+
+                    <input type="date" name="dob" id="dob">
+                    <br>
+                    <br>
+                    <label for="file">Upload your photo:</label>
+                    <br>
+                    <input type="file" name="profile-photo" id="file">
+                    <br>
+                    <br>
+                    <input type="submit" value="Register">
+                    <br>
+                    <br>
+                    <a href="">Already a user?</a>
+                </form>
+            </fieldset>
+        </center>
+    </main>
+    <hr>
+    <footer style="text-align: center;">
+        <p>Copyright &copy; 2024. All rights reserved.</p>
+    </footer>
