@@ -1,0 +1,43 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+body {
+  background-color: aliceblue;
+}
+header {
+  background-color: beige;
+}
+nav {
+  background-color: cadetblue;
+  text-align: center;
+}
+header a {
+  margin: 0 150px;
+  color: #fff;
+  text-decoration: none;
+}
+
+/* h1 {
+  text-align: center;
+  margin-top: 20px;
+} */
+h1 {
+  display: inline-block;
+}
+.m-bottom {
+  margin-right: 40px;
+}
+.m-top {
+  margin-left: 60px;
+}
+footer {
+  color: #fff;
+  background-color: black;
+  height: 20px;
+}
+p {
+  text-align: center;
+  background-color: aqua;
+}
