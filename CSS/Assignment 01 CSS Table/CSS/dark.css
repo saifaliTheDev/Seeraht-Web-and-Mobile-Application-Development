@@ -1,15 +1,10 @@
 header {
-  height: 80px;
-  background-color: #121212;
-}
-
-header {
-  height: 80px;
-  background-color: #121212;
+  height: 70px;
+  background-color: #121212f5;
 }
 
 main {
-  background-color: #121212e7;
+  background-color: #121212f0;
   color: white;
   padding: 15px;
 }
@@ -17,6 +12,10 @@ main {
 .container {
   width: 70%;
   margin: 0 auto;
+}
+
+#logo {
+  margin-top: 16px;
 }
 table,
 tr,
@@ -27,7 +26,7 @@ td {
 
 th,
 td {
-  padding: 15px;
+  padding: 10px;
 }
 
 table {
@@ -45,9 +44,13 @@ table {
 }
 
 footer {
+  height: 30px;
+  background-color: #141414ef;
   text-align: center;
-  height: 40px;
+  padding: 5px 0;
+  color: white;
 }
+
 #button {
   background-color: rgb(255, 255, 255);
   border: none;
@@ -55,8 +58,8 @@ footer {
   border-radius: 4px;
   padding: 4px;
   float: right;
-  margin: 20px 0;
-  height: 40px;
+  margin: 17.5px 0;
+  height: 35px;
   width: 120px;
   font-size: 20px;
   color: rgb(0, 0, 0);

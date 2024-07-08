@@ -1,5 +1,5 @@
 header {
-  height: 80px;
+  height: 70px;
 }
 main {
   background-color: whitesmoke;
@@ -10,6 +10,10 @@ main {
   width: 70%;
   margin: 0 auto;
 }
+
+#logo {
+  margin-top: 16px;
+}
 table,
 tr,
 th,
@@ -19,7 +23,7 @@ td {
 
 th,
 td {
-  padding: 15px;
+  padding: 10px;
 }
 
 table {
@@ -43,14 +47,15 @@ table {
   border-radius: 4px;
   padding: 4px;
   float: right;
-  margin: 20px 0;
-  height: 40px;
+  margin: 17.5px 0;
+  height: 35px;
   width: 120px;
   font-size: 20px;
+  vertical-align: center;
 }
 
 footer {
+  height: 30px;
+  margin-top: 15px;
   text-align: center;
-  height: 40px;
-  
 }
